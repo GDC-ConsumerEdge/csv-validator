@@ -1,0 +1,15 @@
+cluster_name,cluster_group,cluster_tags,optional_value,unique_set_of_values,optional_unique_set_of_values,ip,network,repository,sha,tag,email
+US75911CLS01,prod-us,"corp,donotupgrade",,"ham,mustard,bread",,142.3.16.153,10.128.0.0/10,https://github.com/edge-config-sync-org/us-edge-workloads.git,foobar,v1.6.3,iam@some-domain.fun
+US41273CLS01,prod-us,"corp,drivethruduallane",,"ham,mustard,bread",,555.3.16.153,10.128.0.0/10,https://github.com/edge-config-sync-org/us-edge-workloads.git,8b5a888,1.6.3,iam@some-domain.fun
+US64150CLS01,prod-us,"24/7,drivethruduallane",foo,"ham,mustard,bread","ham,mustard,bread,ham",142.3.16.153,10.128.0.0/10,https://github.com/edge-config-sync-org/us-edge-workloads.git,8b5a88,v1.6.3,iam@some-domain.fun
+US21646CLS01,prod-us,drivethruduallane,,"ham,mustard,bread",,142.3.16.153,10.128.0.0/10,https://github.com/edge-config-sync-org/us-edge-workloads.git,8b5a888,v1.6.3,iam@some-domain.fun
+US39016CLS01,prod-us,drivethruduallane,,"ham,banana,bread",,142.3.16.153,10.128.0.0/10,https://github.com/pydantic/pydantic,8b5a888,v1.6.3,iam@some-domain.fun
+US76839CLS01,prod-us,"24/7,drivethruduallane",,"ham,mustard,bread",,gotcha,10.128.0.0/10,https://github.com/edge-config-sync-org/us-edge-workloads.git,8b5a888,v1.6.3,iam@some-domain.fun
+US22707CLS01,prod-us,"24/7,corp,drivethru",,"ham,mustard,bread",,142.3.16.153,10.128.0.0/10,https://github.com/edge-config-sync-org/us-edge-workloads.git,8b5a888,v1.6.3,iam@some-domain.fun
+US62877CLS01,nonprod-us,donotupgrade,,"ham,mustard,bread",,142.3.16.153,10.128.0.0/10,https://github.com/edge-config-sync-org/us-edge-workloads.git,8b5a888,v1.6.3,iam@some-domain.fun
+US87746CLS01,nonprod-us,drivethruduallane,bar,"ham,mustard,bread","ham,mustard,bread,ham",142.3.16.153,10.128.0.0/10,https://github.com/pydantic/pydantic,8b5a888,v1.6.3,iam@some-domain.fun
+US56825CLS01,nonprod-us,drivethruduallane,,"ham,mustard,bread",,142.3.16.153,10.128.0.0/57,https://github.com/edge-config-sync-org/us-edge-workloads.git,8b5a888,v1.6.3,"not a valid email"
+US79589CLS01,nonprod-us,"corp,drivethruduallane",,"ham,mustard,bread","banana,banana,banana,bread",142.3.16.153,10.128.0.0/10,https://github.com/edge-config-sync-org/us-edge-workloads.git,8b5a888,v1.6.3,iam@some-domain.fun
+AU98342CLS01,nonprod-au,"24/7,corp,drivethru",,"ham,mustard,bread",,142.3.16.153,10.128.0.0/10,https://github.com/edge-config-sync-org/us-edge-workloads.git,8b5a88,v1.6.3,iam@some-domain.fun
+AU58940CLS01,nonprod-au,"corp,donotupgrade",,"ham,mustard,bread",,555.3.16.153,10.128.0.0/10,https://github.com/edge-config-sync-org/us-edge-workloads.git,8b5a888,v1.6.3,iam@some-domain.fun
+AU73291CLS01,nonprod-au,donotupgrade,,"ham,mustard,bread",,142.3.16.,10.128.0.0/10,https://github.com/edge-config-sync-org/us-edge-workloads.git,8b5a888,v1.6.3,iam@some-domain.fun

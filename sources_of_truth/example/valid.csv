@@ -1,0 +1,12 @@
+cluster_name,cluster_group,cluster_tags,optional_value,unique_set_of_values,optional_unique_set_of_values,ip,network,repository,sha,tag,email
+US75911CLS01,us,"prod,corp",,"ham,mustard,bread",,142.3.16.153,10.128.0.0/10,https://github.com/edge-config-sync-org/us-edge-workloads.git,8b5a888,v1.6.3,iam@some-domain.fun
+US41273CLS01,us,"prod,corp",,"ham,mustard,bread",,142.3.16.153,10.128.0.0/10,https://github.com/edge-config-sync-org/us-edge-workloads.git,8b5a888,v1.6.3,iam@some-domain.fun
+US64150CLS01,us,"prod,corp",foo,"ham,mustard,bread","ham,mustard,bread,ham",142.3.16.153,10.128.0.0/10,https://github.com/edge-config-sync-org/us-edge-workloads.git,8b5a888,v1.6.3,iam@some-domain.fun
+US21646CLS01,us,"prod,corp,donotupgrade",,"ham,mustard,bread",,142.3.16.153,10.128.0.0/10,https://github.com/edge-config-sync-org/us-edge-workloads.git,8b5a888,v1.6.3,iam@some-domain.fun
+US39016CLS01,us,"prod,corp",,"ham,mustard,bread",,142.3.16.153,10.128.0.0/10,https://github.com/edge-config-sync-org/us-edge-workloads.git,8b5a888,v1.6.3,iam@some-domain.fun
+US22707CLS01,us-lab,"lab,corp",,"ham,mustard,bread",,142.3.16.153,10.128.0.0/10,https://github.com/edge-config-sync-org/us-edge-workloads.git,8b5a888,v1.6.3,iam@some-domain.fun
+US76839CLS01,us-lab,"lab,corp",,"ham,mustard,bread",,142.3.16.153,10.128.0.0/10,https://github.com/edge-config-sync-org/us-edge-workloads.git,8b5a888,v1.6.3,iam@some-domain.fun
+US62877CLS01,us-lab,"lab,corp",,"ham,mustard,bread",,142.3.16.153,10.128.0.0/10,https://github.com/edge-config-sync-org/us-edge-workloads.git,8b5a888,v1.6.3,iam@some-domain.fun
+MX98342CLS01,mx,"prod,franchise,donotupgrade",,"ham,mustard,bread",,142.3.16.153,10.128.0.0/10,https://github.com/edge-config-sync-org/us-edge-workloads.git,8b5a888,v1.6.3,iam@some-domain.fun
+MX58940CLS01,mx,"prod,corp",,"ham,mustard,bread",,142.3.16.153,10.128.0.0/10,https://github.com/edge-config-sync-org/us-edge-workloads.git,8b5a888,v1.6.3,iam@some-domain.fun
+MX73291CLS01,mx,"prod,corp",,"ham,mustard,bread",,142.3.16.153,10.128.0.0/10,https://github.com/edge-config-sync-org/us-edge-workloads.git,8b5a888,v1.6.3,iam@some-domain.fun

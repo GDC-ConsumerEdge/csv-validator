@@ -1,0 +1,15 @@
+cluster_name,cluster_group,cluster_tags,dns_servers,ham,sandwich
+US75911CLS01,prod-us,"donotupgrade,corp","ham sandwich",ham,sandwich
+US41273CLS01,prod-us,"drivethruduallane,corp","1.1.1.1,1.1.0.0",ham,sandwich
+US64150CLS01,prod-us,"24/7,drivethruduallane","1.1.1.1,1.1.0.0",ham,sandwich
+US21646CLS01,prod-us,"drivethruduallane","ham sandwich",ham,sandwich
+US39016CLS01,prod-us,"drivethruduallane","1.1.1.1,1.1.0.0",ham,sandwich
+US76839CLS01,prod-us,"24/7,drivethruduallane","1.1.1.1,1.1.0.0",ham,sandwich
+US22707CLS01,prod-us,"24/7,drivethru,corp","1.1.1.1,1.1.0.0",ham,sandwich
+US62877CLS01,nonprod-us,"donotupgrade","8.8.8.8,8.8.4.4",ham,sandwich
+US87746CLS01,nonprod-us,"drivethruduallane","ham sandwich",ham,sandwich
+US56825CLS01,nonprod-us,"drivethruduallane","8.8.8.8,8.8.4.4",ham,sandwich
+US79589CLS01,nonprod-us,"drivethruduallane,corp","8.8.8.8,8.8.4.4",ham,sandwich
+AU98342CLS01,nonprod-au,"24/7,drivethru,corp","ham sandwich",ham,sandwich
+AU58940CLS01,nonprod-au,"donotupgrade,corp","8.8.8.8,8.8.4.4",ham,sandwich
+AU73291CLS01,nonprod-au,"donotupgrade","8.8.8.8,8.8.4.4",ham,sandwich

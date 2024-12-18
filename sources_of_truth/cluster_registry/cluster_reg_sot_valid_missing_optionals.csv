@@ -1,0 +1,15 @@
+cluster_name,cluster_group,cluster_tags,platform_repository,platform_repository_revision,workload_repository,workload_repository_revision,workload_repository_sync_interval
+US75911CLS01,prod-us,"corp,donotupgrade",https://example.com/platform.git,de40d60db7817487611b7c2f4878cf32bed24324,https://example.com/workload.git,2cac4152bfd472ec38e537c43916f9f451f777e8,1m
+US41273CLS01,prod-us,"corp,drivethruduallane",https://example.com/platform.git,de40d60db7817487611b7c2f4878cf32bed24324,https://example.com/workload.git,2cac4152bfd472ec38e537c43916f9f451f777e8,1m
+US64150CLS01,prod-us,"24/7,drivethruduallane",https://example.com/platform.git,de40d60db7817487611b7c2f4878cf32bed24324,https://example.com/workload.git,2cac4152bfd472ec38e537c43916f9f451f777e8,1m
+US21646CLS01,prod-us,drivethruduallane,https://example.com/platform.git,de40d60db7817487611b7c2f4878cf32bed24324,https://example.com/workload.git,2cac4152bfd472ec38e537c43916f9f451f777e8,1m
+US39016CLS01,prod-us,drivethruduallane,https://example.com/platform.git,de40d60db7817487611b7c2f4878cf32bed24324,https://example.com/workload.git,2cac4152bfd472ec38e537c43916f9f451f777e8,1m
+US76839CLS01,prod-us,"24/7,drivethruduallane",https://example.com/platform.git,de40d60db7817487611b7c2f4878cf32bed24324,https://example.com/workload.git,2cac4152bfd472ec38e537c43916f9f451f777e8,1m
+US22707CLS01,prod-us,"24/7,corp,drivethru",https://example.com/platform.git,de40d60db7817487611b7c2f4878cf32bed24324,https://example.com/workload.git,2cac4152bfd472ec38e537c43916f9f451f777e8,1m
+US62877CLS01,nonprod-us,donotupgrade,https://example.com/platform.git,de40d60db7817487611b7c2f4878cf32bed24324,https://example.com/workload.git,2cac4152bfd472ec38e537c43916f9f451f777e8,1m
+US87746CLS01,nonprod-us,drivethruduallane,https://example.com/platform.git,de40d60db7817487611b7c2f4878cf32bed24324,https://example.com/workload.git,2cac4152bfd472ec38e537c43916f9f451f777e8,1m
+US56825CLS01,nonprod-us,drivethruduallane,https://example.com/platform.git,de40d60db7817487611b7c2f4878cf32bed24324,https://example.com/workload.git,2cac4152bfd472ec38e537c43916f9f451f777e8,1m
+US79589CLS01,nonprod-us,"corp,drivethruduallane",https://example.com/platform.git,de40d60db7817487611b7c2f4878cf32bed24324,https://example.com/workload.git,2cac4152bfd472ec38e537c43916f9f451f777e8,1m
+AU98342CLS01,nonprod-au,"24/7,corp,drivethru",https://example.com/platform.git,cbd9e992f69db84bb9bc8712cd6bb3d014e9e925,https://example.com/workload.git,33a57b836ff178655114527ff57949fde2c78cf0,1m
+AU58940CLS01,nonprod-au,"corp,donotupgrade",https://example.com/platform.git,cbd9e992f69db84bb9bc8712cd6bb3d014e9e925,https://example.com/workload.git,33a57b836ff178655114527ff57949fde2c78cf0,1m
+AU73291CLS01,nonprod-au,donotupgrade,https://example.com/platform.git,cbd9e992f69db84bb9bc8712cd6bb3d014e9e925,https://example.com/workload.git,3s3a57b836ff178655114527ff57949fde2c78cf0,1m
