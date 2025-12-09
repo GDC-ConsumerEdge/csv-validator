@@ -3,7 +3,7 @@
 This code is intended to assist in building CSV schema-validating workflows and, more specifically, to validate CSVs
 adhering to source of truth requirements used in the [Hydration](https://github.com/GDC-ConsumerEdge/hydrator) and Rollout Manager (HRM) workflow. 
 
-Despite it being built to validate data within a very narrow use case, it excels at validating aribtrary CSV data and would we perfectly valid in a generic data validation workflow., 
+Despite it being built to validate data within a very narrow use case, it excels at validating aribtrary CSV data and would be perfectly valid in a generic data validation workflow.
 
 It makes heavy use
 of [Pydantic](https://github.com/pydantic/pydantic) to do the heavy lifting of validating schemas, providing a few
