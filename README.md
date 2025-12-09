@@ -1,15 +1,18 @@
 # CSV Validator
 
-This code is intended to assist in building CSV-schema-validating workflows. It is intended to be used to validate CSVs
-adhering to source of truth requirements used in the Hydration and Rollout Manager (HRM) workflow. It makes heavy use
+This code is intended to assist in building CSV schema-validating workflows and, more specifically, to validate CSVs
+adhering to source of truth requirements used in the [Hydration](https://github.com/GDC-ConsumerEdge/hydrator) and Rollout Manager (HRM) workflow. 
+
+Despite its being built to validate a certain use case of CSV data, it excels at validating aribtrary CSV data and would we perfectly valid in a generic data validation workflow., 
+
+It makes heavy use
 of [Pydantic](https://github.com/pydantic/pydantic) to do the heavy lifting of validating schemas, providing a few
 things out of the box:
 
-* An opinionated Pydantic model structure to define and validate the schema of arbitrary user-defined CSV data AND
-  HRM-required data
+* An opinionated model structure to define and validate the schema of arbitrary CSV data
 * A CLI workflow (for CI/CD and local dev)
 * Ability to load external, user-provided schema models and check an aribtray CSV file against them
-* Optional coercion of data into a prescriptive, normalized structure serialization, dumping this as an output file
+* Coercion of data into a prescriptive, normalized structure during serialization, dumping this as an output file
 
 In order to write models that integrate with this module and CLI, you should (ideally) have some experience with Python
 3.12. You will need to develop comfort writing Pydantic models by becoming familiar with the
@@ -19,7 +22,7 @@ the [concepts](https://docs.pydantic.dev/latest/concepts/models/).
 ## Requirements
 
 * Python 3.12+
-* Pydantic
+* [Pydantic](https://github.com/pydantic/pydantic)
 
 ## Installation
 
