@@ -97,9 +97,9 @@ wheel==0.43.0 \
     # via pip-tools
 
 # The following packages are considered to be unsafe in a requirements file:
-pip==24.2 \
-    --hash=sha256:2cd581cf58ab7fcfca4ce8efa6dcacd0de5bf8d0a3eb9ec927e07405f4d9e2a2 \
-    --hash=sha256:5b5e490b5e9cb275c879595064adce9ebd31b854e3e803740b72f9ccf34a45b8
+pip==26.0 \
+    --hash=sha256:3ce220a0a17915972fbf1ab451baae1521c4539e778b28127efa79b974aff0fa \
+    --hash=sha256:98436feffb9e31bc9339cf369fd55d3331b1580b6a6f1173bacacddcf9c34754
     # via pip-tools
 setuptools==73.0.1 \
     --hash=sha256:b208925fcb9f7af924ed2dc04708ea89791e24bde0d3020b27df0e116088b34e \
